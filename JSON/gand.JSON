@@ -1,0 +1,32 @@
+map.on('load', function () {
+
+    map.addLayer({
+        "id": "route",
+        "type": "line",
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                      [2.296528, 49.878104],
+                  		[2.295042, 49.877878],
+                  		[2.294716, 49.876974],
+                  		[2.293388, 49.877074],
+                  		[2.293418, 49.877494]
+                    ]
+                }
+            }
+        },
+        "layout": {
+            "line-join": "round",
+            "line-cap": "round"
+        },
+        "paint": {
+            "line-color": "#000000",
+            "line-width": 3
+        }
+    });
+});

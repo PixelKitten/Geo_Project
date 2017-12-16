@@ -1,0 +1,22 @@
+entrée cité sco:
+		[2.296528, 49.878104],
+		[2.295042, 49.877878],
+		[2.294716, 49.876974],
+		[2.293388, 49.877074],
+		[2.293418, 49.877494]
+direction edouard gand
+(suis juste pas sur de ou se situe l'entrée , je sais pas ou elle se trouve en vrai)
+entrée cité sco:
+		49.878365, 2.296431
+		49.877445, 2.296407
+		49.876300, 2.296511
+		49.875873, 2.297124
+direction Louis Thuillier
+
+entrée cité sco:
+		49.878365, 2.296431
+		49.877445, 2.296407
+		49.876300, 2.296511
+		49.874291, 2.296831
+		49.874050, 2.298121
+direction branly

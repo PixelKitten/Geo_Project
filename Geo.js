@@ -129,3 +129,6 @@ map.on('load', function () {
                 map.getCanvas().style.cursor = 'pointer';
             });
     });
+
+//Et une fois les points initialisées on permet à l'utilisateur de modifier les tracés
+//En ne rechargeant que index.html
