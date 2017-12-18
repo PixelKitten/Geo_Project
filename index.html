@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8"/>
   <!--The script & link for MapBox.com-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet'/>
   <link href="gros.css" rel="stylesheet"/>
@@ -12,9 +13,21 @@
 <header>
 
 <body>
+  <!--Le choix de la direction à afficher-->
+  <div id="choix">
+  <form method="POST">
+    <p>
+      <label for="direction">Où voulez vous aller ?</label>
+      <select name="direction" id="direction">
+        <option value="branly">Edouard Branly</option>
+        <option value="gand">Edouard Gand</option>
+        <option value="thuillier">Louis Thuillier</option>
+      </select>
+    </p>
+  </div>
 <!--La map et le script-->
   <div id='map'></div>
-  <script type="text/javascript" src="Geo.js"></script>
+  <!--<script type="text/javascript" src="Geo.js"></script>-->
 
 <!--La fin de page et les infos supplémentaires-->
 </body>
